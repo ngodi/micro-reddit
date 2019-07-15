@@ -1,24 +1,57 @@
-# README
+# Micro Reddit Basic Model
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Introduction
 
-Things you may want to cover:
+This is a project about making a basic data base model of reddit, containing users, posts and comments.
 
-* Ruby version
 
-* System dependencies
+## Skills demonstrated in this project
 
-* Configuration
+* Rails Models
+* Associations
+* Migrations
+* Rails console
 
-* Database creation
+## Getting started
 
-* Database initialization
+Install the prover version of ruby 
 
-* How to run the test suite
+```
+$ rbenv install  2.6.3
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Install the prover version of rails 
 
-* Deployment instructions
+```
+$ gem install rails -v 5.1.6
+```
 
-* ...
+To get started, clone the repo and then install the needed gems:
+
+```
+$ bundle install
+```
+
+Next, migrate the database:
+
+```
+$ rails db:migrate
+```
+
+Run the test suite to verify that everything is working correctly:
+
+```
+$ rails test
+```
+
+Finally, play with the database
+
+```
+$ rails console
+```
+## Contributors
+
+[Alberto Ngodi](https://github.com/ngodi)
+[Diego Arvizu](https://github.com/diegoarvz4)
+
+
